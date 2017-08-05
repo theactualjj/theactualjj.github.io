@@ -1,0 +1,235 @@
+body {
+    	/* background-image: url('../images/beachandsun.jpg'); */
+    	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header {
+		background-color: 
+		#c3cfbd;
+		height: 80px;
+		margin-top: 50px;
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		padding-top: 0;
+		position: static;
+		top: 0;
+}
+
+h2, h3 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	border-bottom: 2px solid #4aaaa5;
+	padding-bottom: 20px;	
+}
+
+#connectstyle {
+	text-align: center;
+}
+
+.name {
+	background: #4aaaa5;
+	height: 70px;
+	width: 24%;
+	float: left;
+	text-align: center;
+	color: white;
+	margin-left: 90px;
+	margin-top: 10px;
+}
+
+.links {
+	margin-top: 30px;
+	margin-right: 135px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	float: right;
+}
+
+/*.container {
+		width: 100%;
+		height: 100%;
+		clear: both;
+		border-top: 2px solid #cccccc;
+}
+*/
+.maincontent  {
+		width: 40%;
+		background-color: #c3cfbd;
+		margin: 40px 45px 40px 90px;
+		padding: 30px 30px 30px 30px;
+		border: 1px solid #cccccc;
+		float: left;
+}
+
+.connect {
+		width: 20%;
+		background-color: #c3cfbd;
+		margin: 40px 45px 40px 40px;
+		padding: 30px 30px 40px 30px;
+		border: 1px solid #cccccc;
+		float: left;		
+
+}
+
+#self-image {
+	float: left;
+	width: 30%;
+	padding-right: 20px;
+}
+
+#bio {
+	float: left;
+
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 16px 40px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.contactform {
+    border-radius: 5px;
+    padding: 20px 20px 20px 20px;
+	clear: both;
+}
+
+.iconlink {
+		width: 60px;
+		height: 60px;
+		position: center;
+		margin: 5px 5px 5px 5px;
+}		
+
+a:hover {
+    background color: white;
+}
+
+#bar_room, #seafoodtower, #productivity, #crossfitTD, #Creative-Thinking {
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+
+#marquee {
+	background-color: #4aaaa5;
+	height: 40px;
+	width: 250px;
+	position: absolute;
+    left: 0;
+    top: 70%;
+    width: 250px;
+    text-align: center;
+    font-size: 18px;
+	color: white;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+footer {
+	height: 50px;
+	width: 100%;
+  	color: white;
+  	font-size: 12px;
+	background: #666666;
+	padding-top: 40px;
+	text-align: center;
+	clear: both;
+	border-top: 5px solid #4aaaa5;
+}
+
+@media screen and (max-width: 980px) {
+  
+  	.maincontent {
+    	width: 90%;
+    	font-size: 70%;
+  	}
+
+  	.connect {
+    	width: 90%;
+  	}
+
+	#bio {
+		width: 50%;
+	}
+	
+	#self-image {
+		width: 50%;
+		height: 50%;
+	}
+
+	.iconlink {
+		width: 20%;
+		height: 20%;
+		margin: 0px;
+	}
+
+}
+
+/* Additional Screen Sizes */
+
+/* Width at 768px and below */
+@media screen and (max-width: 768px) {
+  
+ 	.container {
+    	width: 100%;
+
+  	}. 
+
+  	.maincontent {
+    	width: 40%;
+  	}
+
+  	.connect {
+    	width: 30%;
+  	}
+	
+	#bio {
+		width: 50%;
+	}
+	
+	#self-image {
+		width: 50%;
+	}
+
+}
+
+/* Width at 640px and below */
+@media screen and (max-width: 640px) {
+  
+	.container {
+    	width: 100%;
+  	} 
+
+  	.maincontent {
+    	width: 40%;
+  	}
+
+  	.connect {
+    	width: 30%;
+  	}
+}
+
