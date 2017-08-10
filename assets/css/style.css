@@ -204,15 +204,20 @@ footer {
   	}
 
   	.connect {
-    	width: 30%;
+    	width: 20%;
   	}
 	
 	#bio {
-		width: 50%;
+		width: 40%;
 	}
 	
 	#self-image {
-		width: 50%;
+		width: 40%;
+	}
+
+	.iconlink {
+		width: 25%;
+		height: 25%;
 	}
 
 }
